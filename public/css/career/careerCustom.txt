@@ -1,0 +1,7 @@
+/* career STYLES
+-------------------------------------------------- */
+.left_font{
+	text-align:left;
+	color:#FFFFFF;
+	margin-left:7%;
+}

@@ -1,0 +1,35 @@
+/* Reseting margins and paddings for all elements */
+*{
+	margin:0;
+	padding:0;
+}
+/* Removing outlines on links */
+a:link, a:visited, a:active, a:hover, a:focus {
+	outline:0;
+	-moz-outline-style: 0;
+}
+/* Removing body margins & setting background-color */
+body { 
+	background-color: #fff;
+	#background-image:url('../images/bokeh.png');
+	background-position:top left;
+	background-repeat:repeat-x;
+}
+#content {
+	#margin-top:40px;
+}
+/* Thumbnails container configuration */
+.mouseslider > li{
+	list-style-type:none;
+	float:left;
+	#margin-left:5px !important;
+}
+/* Adding white border */
+.mouseslider > li img{
+	#border: 1px solid #ccc;  
+	#padding: 5px;
+	background: #fff;
+	#-moz-border-radius: 4px;
+    #-webkit-border-radius: 4px; 
+    #border-radius: 4px;
+}

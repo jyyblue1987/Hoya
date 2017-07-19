@@ -1,0 +1,115 @@
+/* career STYLES
+-------------------------------------------------- */
+.caontainer_career{
+	position:relative;
+	background-image: url(/images/career/career_3.jpg); 
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:left;
+}
+#career-subtitle{
+	height:100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+	direction:rtl;
+}
+
+#career-subtitle::-webkit-scrollbar {
+    width: 10px;
+	direction:ltr; 
+} 
+/* Track */
+#career-subtitle::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,1);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+	
+}
+/* Handle */
+#career-subtitle::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,1);
+}
+#career-subtitle::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(128,128,128,1);
+}
+
+#career-content{
+	height:100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+#career-content::-webkit-scrollbar {
+    width: 10px;
+	
+} 
+/* Track */
+#career-content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,1);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+/* Handle */
+#career-content::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,1);
+}
+#career-content::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(128,128,128,1);
+}
+.subtitle_div p{
+	text-align:left;
+	font-family: "Myriad Pro";
+    z-index: 28;
+}
+
+.job_font{
+	font-family: "AauxProLight";
+	color: rgb(40, 40, 40);
+	line-height: 1;
+	z-index: 22;
+}
+
+#hidden_font{
+	font-family: "Baskerville";
+    color: rgb(255, 255, 255);
+	font-style: italic;
+	z-index: 21;
+	text-align:center;
+	
+	
+	
+}
+.career_group{
+	background-position:center;
+	background-repeat:no-repeat;
+	width:100%;
+	background-size:cover;
+}
+
+
+@media (max-width: 1080px) {
+	#right_hidden{display:none;}
+    #text_center{text-align:center;margin-right:10%;}
+
+}
+
+
+@media (min-width: 1000px) {
+	.txt_hidden{visibility:hidden; color:#FFFFFF;}
+}
+
+@media (min-width: 1080px) {
+	#content_hidden{display:none;  }
+}  
+
+#bg_image {
+	width:100%; 
+	position:relative;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}

@@ -1,0 +1,157 @@
+/*CSS*/
+
+.imgClass { 
+background: url(../images/mailsend.png);
+background-position:  0px 0px;
+background-repeat: no-repeat;
+//width: 0px;
+height: 53px;
+border: 0px;
+background-color: none;
+cursor: pointer;
+outline: 0;
+}
+.imgClass:hover{ 
+ background-image: url(../images/mailsendhover.png);
+}
+
+.imgClass:active{
+  background-position:  0px -104px;
+}
+
+
+
+#bg_img{
+	width:100%;
+	position:relative;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.font_1{
+	font-size: 40px;
+	font-family: "Baskerville";
+	color: rgb(255, 255, 255);
+	font-style: italic;
+	line-height: 1.123;
+	text-align: left;
+	margin-top:40%;
+	z-index: 6;
+	visibility:hidden;
+}
+@media (min-width: 950px) {
+	
+}
+
+.mainbox {
+
+	background-color: rgb(237, 237, 237);
+    text-align: left;
+    font-family: "AauxProLight";
+    color: rgb(158, 158, 158);
+    z-index: 54;
+    font-size: 18px;
+    width: 100%;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    line-height: 1.42857143;
+}
+
+@media (max-width: 950px) {
+	#mainbox_change {
+	background-color: rgb(237, 237, 237);
+    text-align: center;
+    font-family: "AauxProLight";
+    color: rgb(158, 158, 158);
+    z-index: 54;
+    font-size: 23px;
+    width: 100%;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    margin-top: 3%;
+	
+  }
+}
+
+@media (max-width: 950px) {
+	.txt_center {
+	text-align: center;
+	font-family: "AauxProLight";
+    color: rgb(255, 255, 255);
+	font-size:30px;
+	z-index: 7;
+  }
+}
+
+@media (max-width: 950px) {
+	#htxt_center {
+	text-align: center;
+	visibility:visible;
+  }
+}
+
+@media (max-width: 950px) {
+	#font_change {
+	text-align: center;
+	font-family: "Baskerville";
+	color: rgb(51, 51, 51);
+	font-style: italic;
+	z-index: 16;
+	font-size:50px !important;
+  }
+}
+
+@media (min-width: 950px) {
+	.txt_bold {
+	text-align: left;
+	font-family: "AauxProBoldOSF";
+	color: rgb(51, 51, 51);
+	font-size:20px;
+	z-index: 43;
+	visibility:hidden;	
+  }
+}
+
+@media (min-width: 950px) {
+.txt_thin {
+	 font-family: "AauxProLight";
+     color: rgb(52, 52, 52);
+	 font-size:20px;
+	 z-index: 42;
+	 text-align: left;
+	 visibility:hidden;
+}
+}
+@media (max-width: 950px) {
+	.text_center {
+	font-family: "Baskerville";
+    color: rgb(255, 255, 255);
+    font-style: italic;
+	text-align: center;
+	font-size: 50px;
+	z-index: 6;
+	
+	
+  }#text_id{ visibility:visible;}
+}
+
+@media (min-width: 960px) {
+	.text_center {
+	text-align: left;
+	
+  }#text_id{ visibility:hidden;}
+}
+
+@media (max-width: 950px) {
+	#disnone {
+		display: none;
+	
+  }
+}
+
